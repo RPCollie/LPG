@@ -1,7 +1,90 @@
-<!DOCTYPE html>
-<html lang="en-US">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<title>LPG | Home page</title>
-	</html>
+<div id="fade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="cardio1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="oncology1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="wellness1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Chiropractic.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="emergency1.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+
+        <div class="container">
+            <h2 style="text-align:center">Our Services</h2>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+    </ol>
+
+    
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="cardio1.jpg" alt="Cardio" style="width:100%">
+        <div class="carousel-caption">
+          <h3>Cardiology</h3>
+          <p>Cardiology is the study and treatment of disorders of the heart
+          and the blood vessels.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="oncology1.jpg" alt="Oncology" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Oncology</h3>
+          <p>A branch of medicine that deals with the prevention, diagnosis,
+          and treatment of cancer.</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="wellness1.jpg" alt="Wellness" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Wellness</h3>
+          <p>Practice healthy habits</p>
+        </div>
+      </div>
+        
+        <div class="item">
+        <img src="Chiropractic.jpg" alt="Chiropractic" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Chiropractic</h3>
+          <p>We love the Big Apple!</p>
+        </div>
+      </div>
+        
+      <div class="item">
+        <img src="emergency1.jpg" alt="Emergency" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Emergency</h3>
+          <p>We love the Big Apple!</p>
+        </div>
+      </div>
+  
+    </div>
